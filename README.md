@@ -1,5 +1,11 @@
 # Problem Set 4
 
+By Matthew Hui
+
+TODO:
+- ask about problem with inputting single-digit numbers in reverse.js
+- finish 6-10
+
 It's time to put your skills to the test. This problem set focuses on programming in JavaScript. More specifically, it focuses on using loops to introduce repetition to your programs.
 
 ## Getting Started
