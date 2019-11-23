@@ -2,10 +2,6 @@
 
 By Matthew Hui
 
-TODO:
-- fibonacci: off by one error? sequence starts with 0 and not 1?
-- finish 7-10
-
 It's time to put your skills to the test. This problem set focuses on programming in JavaScript. More specifically, it focuses on using loops to introduce repetition to your programs.
 
 ## Getting Started
