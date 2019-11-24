@@ -19,4 +19,4 @@ for (let i = LOWER_BOUND; i <= UPPER_BOUND; i++) {
 	}
 }
 
-console.log(`\n${sum.toLocaleString('en-US')}.`);
+console.log(`\n${sum.toLocaleString('en-US')}.\n`);

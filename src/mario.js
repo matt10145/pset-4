@@ -26,3 +26,4 @@ for (let i = 0; i < height; i++) {
     pyramid = "";
     hashtags++;
 }
+console.log("");

@@ -18,8 +18,8 @@ for (let i = 2; i <= Math.floor(Math.sqrt(input)); i++) {
 }
 
 if (isPrime == true) {
-    console.log("\nPrime.");
+    console.log("\nPrime.\n");
 }
 else {
-    console.log("\nNot prime.");
+    console.log("\nNot prime.\n");
 }

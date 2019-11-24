@@ -16,5 +16,5 @@ do {
     }
 } while (input >= 0 || input > Number.MAX_SAFE_INTEGER || (input < 0 && loopCounter == 0) || Number.isNaN(input) || (input % 1 != 0));
 
-average = sum/loopCounter;
-console.log(`\n${average.toLocaleString('en-US', {minimumFractionDigits :3, maximumFractionDigits: 3})}.`);
+average = (sum/loopCounter);
+console.log(`\n${average.toLocaleString('en-US', {minimumFractionDigits :3, maximumFractionDigits: 3})}.\n`);

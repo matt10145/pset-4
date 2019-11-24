@@ -22,4 +22,4 @@ else if (input > 2) {
     }
 }
 
-console.log(`\n${sum.toLocaleString('en-US')}.`);
+console.log(`\n${sum.toLocaleString('en-US')}.\n`);
