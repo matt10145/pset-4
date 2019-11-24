@@ -1,6 +1,6 @@
 const readlineSync = require("readline-sync");
 
-const LOWER_THRESHOLD = 3999999999999;
+const LOWER_THRESHOLD = 1;
 const UPPER_THRESHOLD = 9999999999999999;
 
 let creditNumber = 0;
@@ -14,7 +14,7 @@ let sum = 0;
 console.log("");
 do {
     creditNumber = Number(readlineSync.question("Number: "));
-} while (creditNumber <= LOWER_THRESHOLD || creditNumber > UPPER_THRESHOLD || creditNumber % 1 != 0 || Number.isNaN(creditNumber));
+} while (creditNumber < LOWER_THRESHOLD || creditNumber > UPPER_THRESHOLD || creditNumber % 1 != 0 || Number.isNaN(creditNumber));
 
 creditNumberClone = creditNumber;
 while (creditNumberClone >= 1) {
